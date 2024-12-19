@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>menu</title>
+  <style>
+    .cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-btn,
+.remove-btn {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn:hover,
+.remove-btn:hover {
+  background-color: #45a049;
+}
+
+#food-menu{
+  padding-top: 150px;
+
+}
+
+.cart-icon{
+ font-size: 30px;
+}
+
+.navbar ul{
+  padding-left: 200px;
+}
+
+
+  </style>
+  
+   
+</head>
+<body>
+
+  <!-- navbar  -->
+  <nav class="navbar">
+    <ul class="menu-items">
+      <li><a href="#home" onclick="window.location.href='/index.html'">Home</a></li>
+      <!-- <li><a href="#about">About</a></li> -->
+      <li><a href="#food" onclick="window.location.href='/index.html#food'">Category</a></li>
+      <li><a href="menu.html"onclick="window.location.href='/menu.html'">Menu</a></li>
+      <li><a href="#testimonials"onclick="window.location.href='/index.html#testimonials'">Testimonial</a></li>
+      <li><a href="#contact"onclick="window.location.href='/index.html#contact'">Contact</a></li>
+      <li><a href="#" onclick="window.location.href='/login.html'">Login</a></li>
+      <li><a href="#cart"><div class="cart-icon"><i class="fas fa-shopping-cart"></i></div></a></li>
+    </ul>
+    <img src="/images/logo.png"  class="logo_img" alt="logo">
+    <h1 class="logo">Kasora Food And Service</h1>
+
+  </div>
+</nav>
+
+      
+ 
+
+  <section id="food-menu">
+    <h2 class="food-menu-heading">Food Menu</h2>
+    <br>
+    <br>
+
+    <center><h2 class="ftype">Indian</h2></center>
+  <div class="food-menu-container container">
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i1.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Changezi</h2>
+        <p>
+          Chicken changezi-grilled chicken cooked in onion and creamy tomato gravy tossed with herbs.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn" >Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i2.jfif"
+          alt="error" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Corma</h2>
+        <p>
+          Chicken korma-marinated chicken cooked in white gravy with added cream finished with butter
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/13.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Butter Masala</h2>
+        <p>
+          Chicken butter masala-charcoal grilled chicken cooked in tomato and creamy gravy fiished with butter and cream.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i4.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Tikka Masala</h2>
+        <p>
+          Chicken tikka masala-boneless chicken cooked in onion and creamy gravy with added spices.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i5.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Kolhapuri</h2>
+        <p>
+          Chicken kolhapuri-chicken tossed with fine chopped capcicum and black peeper cooked in master gravy.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i6.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Mumtaz</h2>
+        <p>
+          Chicken mumtaz-chicken cooked In tomato and onion gravy with added butter and cream with natural herbs.
+        </p>
+        <p class="food-price">Price: ₹ 300</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- moctails  -->
+
+
+  <center><h2 class="ftype">Moctails</h2></center>
+  <div class="food-menu-container container">
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/m1.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Sunset Bliss</h2>
+        <p>
+          A vibrant mix of tropical fruits and a hint of coconut, creating a sunset-colored concoction that's as refreshing as it is satisfying.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/m2.jfif"
+          alt="error" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Midnight Magic</h2>
+        <p>
+          A mysterious blend of blackberries and vanilla, topped with a sprinkle of edible glitter, evoking the enchantment of a starlit night in a glass.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/m3.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Sapphire Sparkle</h2>
+        <p>
+          A dazzling fusion of blueberries and elderflower, topped with a splash of sparkling water, reminiscent of a shimmering summer sky.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/m4.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Golden Oasis</h2>
+        <p>
+          A luxurious blend of mango, passion fruit, and a touch of honey, offering a taste of paradise in every sip.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/m5.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Velvet Twilight</h2>
+        <p>
+          A smooth blend of cranberry, pomegranate, and a hint of rosemary, creating a sophisticated mocktail that's as elegant as it is delicious.
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/m6.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Emerald Elixir</h2>
+        <p>
+          A refreshing mix of cucumber, lime, and mint, infused with a burst of green tea, for a revitalizing drink that invigorates the senses.
+        </p>
+        <p class="food-price">Price: ₹ 300</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- chinise   -->
+  
+  <center><h2 class="ftype">Chinise</h2></center>
+  <div class="food-menu-container container">
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/c1.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Spring Rolls</h2>
+        <p>
+          Crispy, golden rolls filled with a combination of vegetables, meat, and sometimes noodles, served with a dipping sauce, providing a satisfying crunch and a delightful medley of textures and tastes.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/c2.jfif"
+          alt="error" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Hakka Noodles</h2>
+        <p>
+          A popular Indo-Chinese dish featuring stir-fried noodles cooked with colorful vegetables, such as bell peppers, carrots, and cabbage, seasoned with a blend of soy sauce and spices, offering a delightful fusion of flavors and textures.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/c3.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chilli Paneer</h2>
+        <p>
+          Succulent cubes of paneer (Indian cottage cheese) stir-fried with colorful bell peppers, onions, and a spicy chili sauce, offering a tantalizing Indo-Chinese dish that's both savory and satisfying.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/c4.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Dumplings </h2>
+        <p>
+          Delicate parcels of dough filled with a savory mixture of meat, vegetables, or seafood, then either steamed, boiled, or pan-fried, offering a burst of flavor in every bite.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/c5.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Gobi Manchurian</h2>
+        <p>
+          Crispy cauliflower florets tossed in a flavorful Indo-Chinese sauce, combining the earthy taste of cauliflower with the spicy and tangy flavors of the Manchurian sauce, creating a popular fusion dish loved by many.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/c6.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chilli Garlic Noodles</h2>
+        <p>
+          A tantalizing fusion of Asian flavors, featuring stir-fried noodles coated in a spicy garlic sauce, with hints of soy sauce and sesame oil, offering a bold and satisfying culinary experience.
+        </p>
+        <p class="food-price">Price: ₹ 300</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- fast - food  -->
+
+  <center><h2 class="ftype">Fast-Food</h2></center>
+  <div class="food-menu-container container">
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i1.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Changezi</h2>
+        <p>
+          Chicken changezi-grilled chicken cooked in onion and creamy tomato gravy tossed with herbs.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i2.jfif"
+          alt="error" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Corma</h2>
+        <p>
+          Chicken korma-marinated chicken cooked in white gravy with added cream finished with butter
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/13.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Butter Masala</h2>
+        <p>
+          Chicken butter masala-charcoal grilled chicken cooked in tomato and creamy gravy fiished with butter and cream.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i4.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Tikka Masala</h2>
+        <p>
+          Chicken tikka masala-boneless chicken cooked in onion and creamy gravy with added spices.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i5.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Kolhapuri</h2>
+        <p>
+          Chicken kolhapuri-chicken tossed with fine chopped capcicum and black peeper cooked in master gravy.
+        </p>
+        <p class="food-price">Price: ₹ 250</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+    <div class="food-menu-item">
+      <div class="food-img">
+        <img
+          src="/images/i6.jfif"
+          alt="" />
+      </div>
+      <div class="food-description">
+        <h2 class="food-titile">Chicken Mumtaz</h2>
+        <p>
+          Chicken mumtaz-chicken cooked In tomato and onion gravy with added butter and cream with natural herbs.
+        </p>
+        <p class="food-price">Price: ₹ 300</p>
+        <div class="cart-item">
+          <button class="add-btn">Add</button>
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section> 
+<script>
+    
+   
+  function addToCart(e) {
+    console.log(e.target.parentElement.parentElement)
+    alert("Item added to cart")
+    
+  }
+  function remove() {
+    alert("Item removed from cart!");
+  }
+  const addBtns=document.getElementsByClassName("add-btn");
+  const removeBtns=document.getElementsByClassName("remove-btn");
+  for(let i=0;i<addBtns.length;i++){
+    addBtns[i].addEventListener("click",addToCart)
+  }
+  for(let i=0;i<removeBtns.length;i++){
+    removeBtns[i].addEventListener("click",remove)
+  }
+</script>
+</body>
+</html>

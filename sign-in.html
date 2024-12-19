@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant Login Page</title>
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+ 
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex; 
+  min-height: 100vh; 
+  background-color: #f0f0f0; 
+}
+
+.container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  height: 100%; 
+}
+
+
+.image {
+  width: 50%; 
+  object-fit: cover;
+  background-size: cover; 
+}
+
+
+.form-container2 {
+  background-color: white; 
+  padding: 30px; 
+  border-radius: 5px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  width: 300px; 
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; 
+}
+
+
+label {
+  display: block; 
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="name"] {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; 
+}
+
+
+input[type="submit"] {
+  background-color: #c24438; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer; 
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #f00101; 
+  
+}
+
+body{
+  background-color: #333;
+  
+}
+
+.container img{
+    width: 600px;
+    height: 700px;
+    margin-top: 100px;
+   
+}
+
+.form-container2{
+    width: 600px;
+    height: 700px;
+    margin-top: 100px;
+    background-color: rgb(211, 209, 207);
+    
+}
+.form-container2 h2{
+  background-color: rgb(128, 125, 125);
+  height: 50px;
+  width: 100;
+  padding-top: 20px;
+}
+.form-container2 label{
+  padding-top: 25px;
+  
+}
+.form-container2 form{
+  margin-top: 50px;
+}
+input[type="submit"]{
+  margin-top: 50px;
+}
+
+.container img:hover{
+  box-shadow: 10px 20px 20px 20px  rgb(81, 81, 81);
+}
+
+.form-container2:hover{
+  box-shadow: 10px 20px 20px   rgb(96, 96, 96);
+  
+}
+
+.redirect-button{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+</style>
+
+<script>
+  function showAlert() {
+    alert("Sign-In Done");
+  }
+
+
+
+</script>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu-items">
+          <li><a href="#home" onclick="window.location.href='/index.html'">Home</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
+          <li><a href="#food" onclick="window.location.href='/index.html#food'">Category</a></li>
+          <li><a href="menu.html"onclick="window.location.href='/menu.html'">Menu</a></li>
+          <li><a href="#testimonials"onclick="window.location.href='/index.html#testimonials'">Testimonial</a></li>
+          <li><a href="#contact"onclick="window.location.href='/index.html#contact'">Contact</a></li>
+          <li><a href="#" onclick="window.location.href='/login.html'">Login</a></li>
+          <li><a href="#cart"><div class="cart-icon"><i class="fas fa-shopping-cart"></i></div></a></li>
+        </ul>
+        <img src="/images/logo.png"  class="logo_img" alt="logo">
+        <h1 class="logo">Kasora Food And Service</h1>
+    
+      </div>
+    </nav>
+	<div class="container">
+        <img src="/images/login.avif" alt="Image" class="image">
+        <div class="form-container2">
+          <h2>Sign-In</h2>
+          <form action="#">
+            <label for="email">Name:</label>
+            <input type="name" id="email" name="email" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="password">Verify Password:</label>
+            <input type="password" id="password" name="password" required>
+           <center> <input type="submit" value="Login" onclick="showAlert()"></center>
+           <br>
+           <br>
+           <center><a href="login.html" class="redirect-button">Login</a></center>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
+
+
+ 
